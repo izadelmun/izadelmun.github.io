@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../Actividad2/estilos/style_recetas.css">
+    <title>Recetas de Cocina</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Recetas de cocina</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#postres">Postres</a></li>
+            <li><a href="#tapas">Tapas</a></li>
+            <li><a href="#vegetarianos">Vegetarianos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <article id="postres">
+            <h2>Spaguetis amatriciana</h2>
+            <p>
+                El plato típico de la
+                zona de Puglia 
+                en Italia
+            </p>
+            <a href="articulo1.html"></a>
+        </article>
+
+        <article id="tapas">
+            <h2>Canolli de Sicilia</h2>
+            <p>
+                El postre más
+                popular de
+                Sicilia
+            </p>
+            <a href="articulo2.html"></a>
+        </article>
+
+        <article id="vegetarianos">
+            <h2>Título artículo 3</h2>
+            <p>
+                energia
+                solar a
+                Europa
+            </p>
+            <a href="articulo3.html"></a>
+        </article>
+
+        <section id="pedido">
+    <h2>Pide tu menú</h2>
+
+    <form>
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <br><br>
+
+        <label for="plat">Elige el menú que quieras pedir:</label>
+        <select id="plat" name="plat">
+            <option value="tapes">Menú de tapas</option>
+            <option value="postres">Menú de postres</option>
+            <option value="vegetaria">Menú vegetariano</option>
+        </select>
+
+        <br><br>
+
+        <label for="quantitat">Cantidad:</label>
+        <input type="number" id="quantitat"
+               name="quantitat" min="1" value="1">
+
+        <br><br>
+
+        <button type="submit">Mandar pedido</button>
+    </form>
+
+    <hr>
+    </section>
+
+        </main>
+
+        <aside>
+            <ul>
+                <li>Anuncio 1</li>
+                <li>Anuncio 2</li>
+                <li>Anuncio 3</li>
+            </ul>
+        </aside>
+
+        <footer>
+            Izan © 2026
+        </footer>
+
+</body>
+
+</html>
