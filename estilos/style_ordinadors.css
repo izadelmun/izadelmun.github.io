@@ -1,0 +1,80 @@
+body {
+
+    background-color: beige;
+}
+.cabecera {
+    color:white;
+    background-color: orangered;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav {
+    background-color: lightgreen;
+    padding: 10px;
+    font-size: 20px;
+}
+
+main .seccion {
+    background-color: beige;
+
+}
+
+main .seccion .titulo-seccion {
+    text-align: center;
+    background-color: lightgray;
+    border: 5px solid orange;
+    padding: 10px;
+    font-size: 30px;
+}
+
+main .seccion .parrafo {
+    border: 5px solid red;
+    font-size: 20px;
+}
+
+.contenedor-imagen {
+    border: 4px solid rgb(122, 8, 167);
+    padding: 5px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.titulo-lista {
+    border: 5px solid blue;
+    font-size: 30px
+}
+
+.lista {
+    background-color: yellow;
+    border: 5px solid black;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.titulo-precio {
+    border: 5px solid blue;
+    font-size: 30px
+}
+
+.parrafo-enlace {
+    border: 6px solid red;
+    font-size: 25px
+}
+
+hr {
+    background-color: beige;
+    border: none;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+section img {
+    width: 400px;
+    height: 300px;
+}
